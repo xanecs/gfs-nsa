@@ -63,8 +63,7 @@ __Kritiker__ befürchten __Industriespionage, Abhören von Diplomaten, Wissensch
 XKeyscore ist der Name eines Softwareprogramms. Es gibt mehrere Deployments davon. Einige davon z.B. durch GCHQ im Rahmen des TEMPORA-Programms.
 
 XKeyscore analysiert den Traffic, speichert ihn für 3 Tage und extrahiert Metadaten, die für 30 Tage gespeichert werden. Die Daten sind von Analysten durchsuchbar.
-
-[Beispiel für XKeyscore-Filter](http://daserste.ndr.de/panorama/xkeyscorerules100.txt)
+[Beispiel für XKeyscore-Filter](http://daserste.ndr.de/panorama/xkeyscorerules100.txt)
 
 [3]
 #### Ausbaustufen
@@ -77,7 +76,7 @@ XKeyscore analysiert den Traffic, speichert ihn für 3 Tage und extrahiert Metad
 #### Datenquellen
 - _SCS_ (Special Collection Service): NSA und CIA-Programm, infiltrieren von Botschaften, Kommunikationszentren, Ausländische Regierungen. Anbringen von Abhörequipment. a.k.a. "Händisch". War Quelle für Merkelphone. [5]
 - _ECHELON/FORNSAT:_ Partnerschaft von Five Eyes, abhören von Satelliten, Telefonnetz (PSTN), Mikrowellen-Funk. [6][7|S. 34-50]
-- _SSO_ (Special Sources Operations): Kooperation mit Telekommunikationsanbietern (ISPs), abgreifen an Glasfaserkabeln [8]
+- _SSO_ (Special Sources Operations): Kooperation mit Telekommunikationsanbietern (ISPs), abgreifen an Glasfaserkabeln [8]
 - _TAO_ (Tailorad Access Operations): Infiltriertes Netzwerkequipment. Bietet auch Möglichkeiten für echte Exploits. [9]
 - _Overhead:_ Amerikanische Spionagedronen, -Flugzeuge, -Satelliten
 
@@ -105,8 +104,8 @@ Aus dem Abkommen zwischen BND, BfV, NSA, das deutschen Geheimdiensten Zugriff au
 BND, BfV tauscht Software gegen Daten, verspricht alle für die NSA wichtigen Daten an sie zu übermitteln.
 [12]
 
-Der BND ist für die NSA ein Partner "dritter Klasse". Ein Partner, der auch ausspioniert wird. [14]
-(und zwar genau so stark wie China und die USA selbst) [15]
+Der BND ist für die NSA ein Partner "dritter Klasse". Ein Partner, der auch ausspioniert wird. 
+(und zwar genau so stark wie China und die USA selbst) [14],[15]
 ## Quellen
 1. [Edward Snowden - Wikipedia](https://de.wikipedia.org/wiki/Edward_Snowden)
 2. [UKUSA-Vereinbarung - Wikipedia](https://de.wikipedia.org/wiki/UKUSA-Vereinbarung)
