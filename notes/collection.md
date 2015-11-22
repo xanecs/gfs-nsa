@@ -106,7 +106,6 @@ BND, BfV tauscht Software gegen Daten, verspricht alle für die NSA wichtigen Da
 
 Der BND ist für die NSA ein Partner "dritter Klasse". Ein Partner, der auch ausspioniert wird. 
 (und zwar genau so stark wie China und die USA selbst) [14],[15]
-
 ### Operation Eikonal
 Abhören von Transitverkehr am Internetknoten DE-CIX. Daten wurden an die NSA weitergegeben.
 Daten wurden am Knoten gefiltert und von der Deutschen Telekom nach Pullach geleitet. Die Telekom erhielt dafür 6000€ im Monat. [16],[17]
