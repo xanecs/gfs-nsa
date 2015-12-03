@@ -5,3 +5,9 @@ main.pdf
 *.fdb_latexmk
 *.log
 *.synctex.gz
+*.bbl
+*.dvi
+*.bcf
+*.bak
+*.run.xml
+*.blg

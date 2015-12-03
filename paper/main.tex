@@ -1,12 +1,14 @@
 \documentclass[12pt,a4paper]{scrartcl}
-\usepackage[utf8x]{inputenc}
+\usepackage[utf8]{inputenc}
+\usepackage{csquotes}
 \usepackage[ngerman]{babel}
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{graphicx}
 \usepackage{float}
-
+\usepackage[backend=biber]{biblatex}
+\addbibresource{./sources.bib}
 \author{Leon Bentrup}
 \title{NSA}
 \begin{document}
@@ -14,6 +16,7 @@
 \tableofcontents
 \newpage
 \KOMAoptions{parskip=full}
+
 \section{Vorwort}
 Dass Geheimdienste Telefongespräche und Internetverkehr überwachen, hatte ich eigentlich nie bezweifelt. Was das wirklich bedeutet, das wurde mir aber erst vor zwei Jahren bewusst.
 
@@ -26,6 +29,11 @@ Was im Nachhinein auch völlig logisch ist, mich aber trotzdem beunruhigt, ist d
 Manche Dokumente zeigen Geheimdienste eher als Unternehmen, statt als geheime Organisation: Es gibt Newsletter mit „Wusstest du schon?”-Artikeln, die einen über die Geschichte des ECHELON-Programms aufklären, für das Anwenden neuer Spionage-Techniken bekommen Mitarbeiter „Skillz-Points“. In anderen Worten: Die Digitalisierung der Welt hat „Spion” zu einem Bürojob gemacht.
 
 \section{Edward Snowden}
+\begin{figure}
+\centering
+\includegraphics[width=0.4\textwidth]{images/snowden.jpg}
+\caption{Edward Snowden bei seinem Interview mit Greenwald}
+\end{figure}
 Edward Snowden ist die zentrale Persönlichkeit der Enthüllungen. Nach langjähriger Arbeit in verschiedenen Einrichtungen der amerikanischen Regierung. Er sammelte eigenständig Millionen von Beweisen für geheime Programme der NSA und anderen Geheimdiensten, die er dann durch die Medien an die Öffentlichkeit brachte.
 
 \subsection{Lebenslauf}
@@ -33,6 +41,7 @@ Edward Snowden wurde am 21. Juni 1983 geboren.
 Da beide Eltern für die Regierung arbeiten, ist es für ihn „normal“, das gleiche zu tun.
 Nach seiner Schulzeit tritt er 2004 der U.S.-Army bei, mit dem Ziel, in Irak zu kämpfen. Als er nach 3 Monaten bei der Armee einen Trainingsunfall hatte, verließ er sie wieder.
 Er arbeitete danach für einige nicht-geheime Einrichtungen der Regierung, bis er 2006, beim Besuch einer Jobmesse von der CIA rekrutiert wurde, wo er unter anderem bei einem internationalen Treffen 2008 in Genf eigesetzt wurde.
+\cite{wiki_snowden}
 
 2009 wechselte er zu DELL, er kümmerte sich um die Computersysteme von Regierungskunden, darunter auch Systeme der NSA und CIA. Sein Einkommen in dieser Position betrug etwa 200~000\$ im Jahr.
 Schon dort bekam er Einsicht in einige streng geheime Operationen der NSA und sammelte schon einige Dokumente als Beweiß.
@@ -55,15 +64,22 @@ National Security Agency & 1~700~000 Dokumente \\
 \caption{Zahl der von Snowden gesammelten Dokumente}
 \end{figure}
 
+Auch wenn Snowden wollte, dass die geheimen Operationen der NSA an die Öffentlichkeit geraten, war er nicht generell gegen Überwachung. Nur solle Überwachung gezielt und auf Verdacht stattfinden, und nicht so massenhaft, wie die NSA es betreibt. 
 
-\subsubsection{Glenn Greenwald}
+Da er also wichtige Operationen der Geheimdienste, zum Beispiel die Überwachung von bekannten Terrororganisationen, nicht gefährden wollte, musste er beim Veröffentlichen der gesammelten Dokumente vorsichtig sein. Er sichtete zunächst selbst alles und sortierte Teile aus, die nichts mit der von ihm kritisierten Massenüberwachung zu tun hatten.
+
+Außerdem veröffentlichte er die Dokumente nicht selbst, sondern übergab sie der Filmemacherin Laura Poitras und dem Guardian-Journalisten Glenn Greenwald. Sie sollten die Dokumente dann über die Medien an die Öffentlichkeit bringen.
 
 \subsubsection{Laura Poitras}
+Laura Poitras, geboren am 2. Februar 1964 in Boston, ist Produzentin und Filmemacherin. Sie arbeitet seit 2005 an einer Filmreihe über die Welt nach dem 11. September 2001. Nachdem sie den ersten Film der Trilogie veröffentlicht hat, wird sie regelmäßig an der amerikanischen Grenze kontrolliert und befragt. Aus diesem Grund zieht sie nach Berlin um, als sie mit ihrem Film „Citizenfour” beginnt. Sie befürchtet, dass ihr Filmmaterial beschlagnahmt wird.\cite{praxisfilms}
+
+\subsubsection{Glenn Greenwald}
 
 \section{Überwachung}
 % Allgemeines
 
 \subsection{XKeyscore}
+
 
 \subsection{Five Eyes}
 
@@ -84,5 +100,7 @@ National Security Agency & 1~700~000 Dokumente \\
 \subsection{BND}
 
 \section{Fazit}
+
+\printbibliography
 
 \end{document}
