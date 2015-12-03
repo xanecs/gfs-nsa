@@ -1,8 +1,0 @@
-{
-  "generator-reveal": {
-    "presentationTitle": "National (in)Security Agency",
-    "packageVersion": "0.0.1",
-    "useSass": true,
-    "deployToGithubPages": false
-  }
-}
