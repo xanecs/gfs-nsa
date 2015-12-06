@@ -82,10 +82,16 @@ In seinen Blog „Unclaimed Territory“ schrieb Greenwald bis 2007 unter andere
 2014 gründete er zusammen mit Laura Poitras die Nachrichtenseite „The Intercept“.\cite{intercept_about}
 
 \section{Überwachung}
-% Allgemeines
+Aus den von Edward Snowden gesammelten Dokumenten gehen einige Informationen über Programme hervor, die eine massenhafte, globale Überwachung der digitalen Kommunikation ermöglichen.
+
+Heute werden sämtliche Formen der Kommunikation über das Internet abgewickelt. Früher war das Internet noch ein Dienst, der über das Telefonnetz funktionierte, heute ist Telefonie ein Dienst, der über das Internet funktioniert. Der normale Internetverkehr läuft neben Festnetz und Mobilgesprächen, SMS, Fax, Fernsehen, den Bildern von Überwachungskameras und vielem weiteren über ein weltweites Netz von Glasfaserkabeln, die man Internet-Backbone („Rückenmark des Internets”) nennt.
+
+Dies Bedeutet natürlich auch, dass ein Geheimdienst, der Zugriff auf das Internet erhält auch Zugriff auf sämtliche anderen Formen der Kommunikation erhält. Viele Programme der NSA beschäftigen sich aus diesem Grund auch genau damit.
 
 \subsection{XKeyscore}
+Die NSA sammelt auf unterschiedlichste Arten Daten: Partnerschaften mit Internetanbietern und Softwarefirmen wie Microsoft oder RSA, das Infiltrieren von Netzwerkhardware, aktivem Hacken von Systemen, Abhören von Funk- und Sattellitenkommunikation und so weiter. Eine riesige Datenmenge, die natürlich nicht von Hand analysiert werden kann.
 
+Das XKeyscore-System beschäftigt sich nicht mit dem Sammeln von Daten, sondern mit dem Auswerten von bereits gesammelten Daten.
 
 \subsection{Five Eyes}
 Die NSA ging mit einigen anderen Geheimdiensten Partnerschaften ein. Darunter zählte auch der Deutsche Bundesnachrichtendienst. Die „wichtigsten” Partner waren allerdings:
@@ -109,7 +115,7 @@ Tempora ist das mit Abstand größte XKeyscore-System. Mehr als 1000 Server an m
 
 Großbritanniens geografische Lage ist für dieses Unternehmen sehr vorteilhaft. In Europa liegt es am nächsten zur amerikanischen Ostküste. Deshalb verlaufen fast alle Untersee-Glasfaserkabel zwischen Europa und Amerika durch Großbritannien. Über diese Glasfaserkabel werden alle Internet- und Telefonverbindungen zwischen den Kontinenten übertragen.
 
-Der GCHQ verschafft sich durch Abkommen mit den Betreibern der Internetknoten Zugang zu diesen Kabeln, und ist somit in der Lage 480 GBit/s (Das 48 Millionenfache der durchschnittlichen Internetgeschwindigkeit in Deutschland\cite{statista_internet}) an Daten in Echtzeit zu sammeln, zu sortieren und zu speichern. Die gesamte Kommunikation, mit Inhalt der Verbindungen werden für 3 Werktage gespeichert. Deshalb nennt der GCHQ das System auch einen „Internet Buffer”, einen Zwischenspeicher für das Internet, der die globale Kommunikation „verlangsamt” und im Nachhinein durchsuchbar macht. Die Metadaten, also Sender, Empfänger, deren Aufenthaltsort und Informationen über deren Endgeräte, Betreff und Zeitpunkt der Nachrichten werden für 30 Tage gespeichert.
+Der GCHQ verschafft sich durch Abkommen mit den Betreibern der Internetknoten Zugang zu diesen Kabeln, und ist somit in der Lage 460 GBit/s (Das 46 Millionenfache der durchschnittlichen Internetgeschwindigkeit in Deutschland\cite{statista_internet}) an Daten in Echtzeit zu sammeln, zu sortieren und zu speichern. Die gesamte Kommunikation, mit Inhalt der Verbindungen werden für 3 Werktage gespeichert. Deshalb nennt der GCHQ das System auch einen „Internet Buffer”, einen Zwischenspeicher für das Internet, der die globale Kommunikation „verlangsamt” und im Nachhinein durchsuchbar macht. Die Metadaten, also Sender, Empfänger, deren Aufenthaltsort und Informationen über deren Endgeräte, Betreff und Zeitpunkt der Nachrichten werden für 30 Tage gespeichert.
 
 \section{Verhältnis zu Deutschland}
 Die NSA nannte Deutschland einen „Partner dritter Klasse“. Das bedeutet, dass Deutschland, obwohl es ein Abkommen mit der NSA geschlossen hat, abgehört wird. Die NSA sammelt ungefähr so viele Datensätze über Deutschland, wie sie auch über China und Russland sammelt. (Siehe Abbildung~\ref{fig:boundless_informant})
@@ -134,7 +140,11 @@ Neben Großbritannien ist auch Deutschland ein wichtiger Standort des Internet-G
 
 Zu einigen der vielen Glasfaserleitungen im DE-CIX verschaffte sich der BND Zugang. Er installierte so genannte „Taps“, die den Datenverkehr duplizieren, die Daten werden also zum einen an den Empfänger weitergeleitet, zusätzlich dazu, wird aber eine Kopie der Daten ausgeleitet. Über eine Standleitung wird dann ein Teil der so abgefangenen Daten in den BND-Standort in Pullach weitergeleitet, dort kann er analysiert werden.
 
-Ob dieses Verfahren rechtmäßig ist, wurde schon von Anfang an bezweifelt, auch von Mitarbeitern des BND selbst. Deshalb wurde die Operation Eikonal angeblich 2008 eingestellt. Vor dem NSA-Untersuchungsausschuss sagte ein BND-Mitarbeiter:
+Auf diese Weise können natürlich nicht alle Daten übertragen werden, die am DE-CIX übertragen werden. Die Daten werden deshalb „selektiert”, das heißt, sie werden mit einer Liste von E-Mailaddressen, Telefonnummern, IP-Adressen, Namen und Benutzernamen abgeglichen, und nur relevante Daten werden dann weitergeleitet. Solch eine Liste erhielt der BND auch von der NSA, sie soll etwa 40 Mio. Selektoren enthalten haben.
+
+Darunter waren allerdings auch Selektoren, die Deutsche Ziele beinhalteten. Deshalb wurde diese Liste nach BND-Angaben durch ein eigenes Filterungssystem, „Dafis” genannt aussortiert. Dabei wurden z.B. +49-Telefonnummern und E-Mailaddressen die in .de enden aussortiert. Wie die Selektoren wurden auch die Daten, die an die NSA weitergeleitet werden sollten durch dieses System gefiltert.
+
+Ob dieses Verfahren rechtmäßig ist, wurde schon von Anfang an bezweifelt, auch von Mitarbeitern des BND selbst. Denn das Dafis-Filtersystem soll nicht einwandfrei funktioniert haben. Man geht von einer Trefferquote von 95\% aus was im Umkehrschluss bedeutet, dass 5\% der Daten von Deutschen nicht vom System erkannt und somit zur NSA weitergeleitet wurden. Dies entspricht etwa 2 Terrabyte „grundrechtswiedriger“ Daten, die die NSA pro Stunden von den Deutschen erhält. Deshalb wurde die Operation Eikonal angeblich 2008 eingestellt. Vor dem NSA-Untersuchungsausschuss sagte ein BND-Mitarbeiter:
 
 \begin{quotation}
 Eikonal beinhaltete selektive Erfassung von Ausland-Ausland-Transitverkehr. Zeit nicht vergessen: Afghanistan, Terror-Aufklärung. Da wurden selektiert Daten erfasst und automatisiert weitergeleitet. Genaueres nur nicht-öffentlich. Wir machen die Methodik ja immer noch.
