@@ -81,7 +81,6 @@ gulp.task('fonts', () => {
 gulp.task('extras', () => {
   return gulp.src([
     'app/*.*',
-    'app/assets',
     'app/CNAME',
     '!app/*.html'
   ], {
