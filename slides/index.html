@@ -640,12 +640,14 @@ in Deutschland</h2>
 					{ src: 'lib/reveal-plugins/highlight/highlight.js', async: true, callback: function() { hljs.initHighlighting(); hljs.initHighlightingOnLoad(); } },
 					{ src: 'lib/reveal-plugins/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
 					{src: 'socket.io/socket.io.js', async: true},
-					{src: 'lib/reveal-plugins/notes-server/client.js', async: true }
+					{src: 'lib/reveal-plugins/notes-server/client.js', async: true },
+					{src: 'lib/reveal-plugins/gamepad/gamepadlib.min.js', async: true },
+					{src: 'lib/reveal-plugins/gamepad/gamepad.js', async: true }
 				]
 			});
 		</script>
 
-		
+
 
 	</body>
 </html>
